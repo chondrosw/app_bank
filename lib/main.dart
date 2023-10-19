@@ -1,5 +1,6 @@
 import 'package:app_bank/ui/view/home_view.dart';
 import 'package:app_bank/ui/view/onboarding_view.dart';
+import 'package:app_bank/ui/view/profile_view.dart';
 import 'package:app_bank/ui/view/signin_view.dart';
 import 'package:app_bank/ui/view/signup_view.dart';
 import 'package:app_bank/ui/view/splash_view.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         "sign-up":(context) => SignupView(),
         "on-boarding":(context) => OnBoardingView()
       },
-      home: TabBarIndicatorView(),
+      home: ProfileView(),
     );
   }
 }

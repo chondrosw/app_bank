@@ -288,7 +288,6 @@ class _HomeViewState extends State<HomeView> {
                   if(await canLaunchUrl(Uri.parse("https://www.google.com"))){
                     launchUrl(Uri.parse("https://www.google.com"));
                   }
-                  
                 },child: FriendlyTipsCard())),
           )
         ],
